@@ -152,3 +152,15 @@ _Route8Text10::
 	line "CELADON CITY -"
 	cont "LAVENDER TOWN"
 	done
+
+_Route8Text11::
+	text "TRAINER TIPS"
+
+	para "FULL HEAL cures"
+	line "all ailments like"
+	cont "sleep and burns."
+
+	para "It costs a bit"
+	line "more, but it's"
+	cont "more convenient."
+	done

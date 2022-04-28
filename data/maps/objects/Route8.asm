@@ -10,6 +10,7 @@ Route8_Object:
 
 	def_signs
 	sign 17,  3, 10 ; Route8Text10
+	sign 1,  11, 11 ; Route8Text11
 
 	def_objects
 	object SPRITE_SUPER_NERD, 8, 5, STAY, RIGHT, 1, OPP_SUPER_NERD, 3

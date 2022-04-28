@@ -1,6 +1,6 @@
 
 	map_header FuchsiaCity, FUCHSIA_CITY, OVERWORLD, SOUTH | WEST | EAST
-	connection south, Route19, ROUTE_19, 5
-	connection west, Route18, ROUTE_18, 4
-	connection east, Route15, ROUTE_15, 4
+	connection south, CinnabarIsland, CINNABAR_ISLAND, 4
+	connection west, PewterCity, PEWTER_CITY, 0
+	connection east, Route10, ROUTE_10, 5
 	end_map_header

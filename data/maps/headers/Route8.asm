@@ -1,5 +1,5 @@
 
 	map_header Route8, ROUTE_8, OVERWORLD, WEST | EAST
-	connection west, SaffronCity, SAFFRON_CITY, -4
-	connection east, LavenderTown, LAVENDER_TOWN, 0
+	connection west, Route18, ROUTE_18, 1
+	connection east, Route12, ROUTE_12, -27
 	end_map_header

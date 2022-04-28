@@ -1,5 +1,5 @@
 
 	map_header Route21, ROUTE_21, OVERWORLD, NORTH | SOUTH
-	connection north, PalletTown, PALLET_TOWN, 0
-	connection south, CinnabarIsland, CINNABAR_ISLAND, 0
+	connection north, Route6, ROUTE_6, -1
+	connection south, Route19, ROUTE_19, 1
 	end_map_header

@@ -1,5 +1,5 @@
 
 	map_header CeladonCity, CELADON_CITY, OVERWORLD, WEST | EAST
-	connection west, Route16, ROUTE_16, 4
-	connection east, Route7, ROUTE_7, 4
+	connection west, Route15, ROUTE_15, 4
+	connection east, ViridianCity, VIRIDIAN_CITY, -3
 	end_map_header

@@ -16,12 +16,11 @@ SaffronCity_Object:
 	sign 27,  5, 17 ; SaffronCityText17
 	sign 35,  5, 18 ; SaffronCityText18
 	sign 26, 11, 19 ; MartSignText
-	sign 39, 19, 20 ; SaffronCityText20
 	sign  5, 21, 21 ; SaffronCityText21
 	sign 15, 21, 22 ; SaffronCityText22
 	sign 10, 29, 23 ; PokeCenterSignText
 	sign 27, 29, 24 ; SaffronCityText24
-	sign  1, 19, 25 ; SaffronCityText25
+	sign  5, 17, 25 ; SaffronCityText25
 
 	def_objects
 	object SPRITE_ROCKET, 7, 6, STAY, NONE, 1 ; person

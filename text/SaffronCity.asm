@@ -109,7 +109,7 @@ _SaffronCityText18::
 	line "Psychic #MON!"
 	done
 
-_SaffronCityText20::
+_SaffronCityText20:: ; Not needed anymore.
 	text "TRAINER TIPS"
 
 	para "FULL HEAL cures"
