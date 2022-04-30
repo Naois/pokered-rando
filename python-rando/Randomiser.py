@@ -5,6 +5,7 @@ import random
 from xmlrpc.client import Boolean
 import MapHeader
 import CheckConnectedness
+import BasicLogic
 
 class bcolors:
     HEADER = '\033[95m'
@@ -109,7 +110,7 @@ if len(eastlist) != len(westlist):
 southlistbackup = southlist[:]
 westlistbackup = westlist[:]
 
-counter = 1
+loopcounter = 1
 
 while True:
     connectionlist: str = ""
@@ -156,13 +157,18 @@ while True:
 
     open(filedir, "w").write(connectionlist)
 
-    if CheckConnectedness.checkConnection(CheckConnectedness.makeGraph(), "PalletTown"):
+    # if CheckConnectedness.checkConnection(CheckConnectedness.makeGraph(), "PalletTown"):
+    #     break
+
+    if BasicLogic.logic():
         break
+
     southlist = southlistbackup[:]
     westlist = westlistbackup[:]
-    counter += 1
+    print(loopcounter)
+    loopcounter += 1
 
-print("Made connected map after {} attempts.".format(counter))
+print("Made completable map after {} attempts.".format(loopcounter))
 
 os.makedirs("headers")
 
